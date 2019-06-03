@@ -1,5 +1,7 @@
-import numpy as np
+import sys
+print(sys.version)
 import matplotlib.pyplot as plt
+import numpy as np
 
 # データの作成
 x = np.arange(0, 6, 0.1)  # 0から6まで0.1刻みで生成
